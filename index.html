@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor Númerico</title> 
+    <link rel="stylesheet" href="styyle.css" class="css">
+</head>
+<body>
+    <main class="formulário">
+        <h1>Conversor Númerico</h1> 
+        <div>
+            <div class="form"> 
+                <label for="num1">Número</label> 
+                <input class="colocar" type="number" name="" id="num1" placeholder="Digite aqui" required> 
+                <select name="option" id="options"> 
+                    <option value="binário">Decimal para Binário</option>  
+                    <option value="decimal">Binário para Decimal</option>
+                </select> 
+                <button class="calcular" type="submit" onclick="calcular()">Calcular</button> 
+                <p id="texto"></p>
+            </div>
+        </div>
+    </main>
+
+
+</body> 
+<script src="script.js"></script>
+</html>

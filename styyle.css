@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Madimi+One&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: "Madimi One", sans-serif
+} 
+
+body{
+    background-color: #F0F0F3;
+}  
+
+h1{
+    font-size: 1.5rem; 
+    margin-bottom: 30px; 
+    color: #56534E;
+
+}
+
+
+.formulário{
+    width: 450px; 
+    height: 600px; 
+    background-color: #F0F0F3;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;   
+    position: relative; 
+    left: 600px; 
+    top: 100px; 
+    border-radius: 15px; 
+    padding: 10px; 
+    text-align: center; 
+    
+    
+}  
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    align-items: center;
+} 
+
+.colocar{
+    width: 380px; 
+    height:55px;  
+    border: none; 
+    border-radius: 10px; 
+    padding: 5px ; 
+    background-color: #F0F0F3;  
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset; 
+
+} 
+
+label{
+    position: relative;
+    right: 155px;
+}
+
+#options{ 
+    margin-top: 100px;
+    width: 300px; 
+    height: 50px;  
+    background-color: #F0F0F3;  
+    border-radius: 10px; 
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;  
+    border: none; 
+    margin-bottom: 100px;
+
+
+}
+
+.calcular{
+    width: 200px;
+    height: 65px; 
+    background-color: black;  
+    border-radius: 20px; 
+    border: none; 
+    cursor: pointer; 
+    font-size: 1.5rem;  
+    color: #F0F0F3;
+
+}
+
+.calcular:hover{
+    background-color: #F0F0F3; 
+    color: black; 
+
+} 
+
+@media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3){
+    .formulário{
+        left: 5px; 
+        width: 370px; 
+        height: 750px; 
+        top: 70px;
+    } 
+    .colocar{
+        width: 300px; 
+    }
+    label{
+        position: relative;
+        right: 120px;
+    } 
+    .calcular{
+        margin-bottom: 50px;
+    }
+    
+}
