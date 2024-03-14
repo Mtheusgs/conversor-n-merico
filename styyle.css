@@ -47,7 +47,8 @@ h1{
     border-radius: 10px; 
     padding: 5px ; 
     background-color: #F0F0F3;  
-    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset; 
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;  
+    font-size: 1.2rem ;
 
 } 
 
@@ -65,6 +66,7 @@ label{
     box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;  
     border: none; 
     margin-bottom: 100px;
+    font-size: 1.2rem ;
 
 
 }
@@ -85,7 +87,11 @@ label{
     background-color: #F0F0F3; 
     color: black; 
 
-} 
+}  
+
+#texto{
+    font-size: 1.3rem; 
+}
 
 @media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3){
     .formulário{
